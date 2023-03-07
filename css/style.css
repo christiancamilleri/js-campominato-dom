@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ body {
+  background-image: url(https://www.cartadaparati.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/b/e/behang-met-een-grote-boom-en-wortels_6.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  
+  
+ }
+
+  h1 {
+    text-align: center;
+    color: chocolate;
+    background-color: rgb(15, 11, 1);
+  }
+
+  nav {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    padding:0.5em 1em;
+    border-radius: 30px;
+    background-color: rgb(0, 237, 0);
+  }
+
+  #difficulty {
+    background-color: rgb(0, 237, 0);
+    padding:0.5em 1em;
+    border-radius: 30px;
+  }
+  
+  #grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+  
+    width: 400px;
+    height: 400px;
+  
+    margin: 0 auto;
+  
+    border: 1px solid gray;
+  }
+  
+  #grid .square {
+  
+    border: 1px solid red;
+    background-color: green;
+  
+  }
+  
+  #grid .square.empty {
+  
+    background-color: aquamarine;
+  
+  }
+  
+  #grid .square.bomb {
+  
+    background-color: red;
+  
+  }
+
+  #message {
+    color: chocolate;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    padding: 1em;
+   
+  }
+  
